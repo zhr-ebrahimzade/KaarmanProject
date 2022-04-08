@@ -8,6 +8,7 @@
       content="width=
     , initial-scale=1.0"
     />
+    <link rel="stylesheet" href="../css/becomeAKaarman.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,20 +21,20 @@
     ></script>
     <title>ثبت نام به عنوان کارمن</title>
   </head>
-  <body style="direction: rtl">
+  <body class="body">
     <nav class="navbar">
-      <div class="container">
-        <div class="logo">Kaarman<i class="fa-solid fa-user-gear"></i></div>
-      </div>
+      <div class="logo">Kaarman<i class="fa-solid fa-user-gear"></i></div>
     </nav>
     <header class="header">
-      <div class="container">
+      <div class="wrapper">
         <div>
           <h1>Earn money your way</h1>
           <p>See how much you can make tasking on TaskRabbit</p>
           <form>
             <div class="form-group">
-              <label for="exampleFormControlSelect1">Select your area</label>
+              <label for="exampleFormControlSelect1" class="label-city"
+                >Select your area</label
+              >
               <select class="form-control" id="exampleFormControlSelect1">
                 <option>Shiraz</option>
                 <option>Bushehr</option>
@@ -62,30 +63,31 @@
               </select>
             </div>
             <div>
-              <button type="button" class="btn btn-primary btn-lg">
+              <button type="button" class="btn btn-primary btn-sm">
                 Large button
               </button>
             </div>
           </form>
           <p>Already have an account? <a href="#"> Log in</a></p>
         </div>
-        <img src="/images/delivery-man.png" alt="A Man Is Painting The Wall" />
+
+        <img src="/images/delivey.png" alt="A Man Is Painting The Wall" />
       </div>
     </header>
-    <hr />
-    <hr />
-    <hr />
+    <div class="partition">
+      <div class="center"></div>
+    </div>
     <section>
-      <div class="container">
+      <div class="wrapper flx-work">
         <h2>Flexible work, at your fingertips</h2>
         <p>
-          Find local jobs that fit your skills and schedule. With TaskRabbit,
+          Find local jobs that fit your skills and schedule. With TaskRabbit,<br />
           you have the freedom and support to be your own boss.
         </p>
       </div>
     </section>
-    <section>
-      <div class="container">
+    <section class="boxes">
+      <div class="wrapper">
         <div class="box">
           <h3><i class="fa-solid fa-user-plus"></i> <br />Be your own boss</h3>
 
@@ -112,8 +114,8 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="container">
+    <section class="about-sec">
+      <div class="wrapper about">
         <div>
           <h2>What is Kaarman?</h2>
           <p>
@@ -122,112 +124,133 @@
             errands. As a Tasker, you can get paid to do what you love, when and
             where you want — all while saving the day for someone in your city.
           </p>
-          <img src="/images/drilling.jpg" alt="A Man Drilling" />
+        </div>
+        <img src="/images/drilling.jpg" alt="A Man Drilling" />
+      </div>
+    </section>
+    <div class="partition">
+      <div class="center"></div>
+    </div>
+    <section class="boxes">
+      <div class="wrapper get-started">
+        <h2>Getting Started</h2>
+        <div class="row">
+          <div class="box column">
+            <h3>
+              <i class="fa-solid fa-user-plus"></i> <br />Be your own boss
+            </h3>
+
+            <p>
+              Work how, when, and where you want. Offer services in 50+
+              categories and set a flexible schedule and work area.
+            </p>
+          </div>
+          <div class="box column">
+            <h3>
+              <i class="fa-solid fa-user-plus"></i> <br />Be your own boss
+            </h3>
+
+            <p>
+              Work how, when, and where you want. Offer services in 50+
+              categories and set a flexible schedule and work area.
+            </p>
+          </div>
+          <div class="box column">
+            <h3>
+              <i class="fa-solid fa-user-plus"></i> <br />Be your own boss
+            </h3>
+
+            <p>
+              Work how, when, and where you want. Offer services in 50+
+              categories and set a flexible schedule and work area.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="box column">
+            <h3>
+              <i class="fa-solid fa-user-plus"></i> <br />Be your own boss
+            </h3>
+
+            <p>
+              Work how, when, and where you want. Offer services in 50+
+              categories and set a flexible schedule and work area.
+            </p>
+          </div>
+          <div class="box column">
+            <h3>
+              <i class="fa-solid fa-user-plus"></i> <br />Be your own boss
+            </h3>
+
+            <p>
+              Work how, when, and where you want. Offer services in 50+
+              categories and set a flexible schedule and work area.
+            </p>
+          </div>
+          <div class="box column">
+            <h3>
+              <i class="fa-solid fa-user-plus"></i> <br />Be your own boss
+            </h3>
+
+            <p>
+              Work how, when, and where you want. Offer services in 50+
+              categories and set a flexible schedule and work area.
+            </p>
+          </div>
         </div>
       </div>
     </section>
-    <hr />
-    <hr />
-    <hr />
-    <section>
-      <div class="container">
-        <h2>Getting Stated</h2>
-        <div class="box">
-          <h3><i class="fa-solid fa-user-plus"></i> <br />Be your own boss</h3>
+    <section class="opinion">
+      <div class="wrapper">
+        <p>
+          <svg
+            width="41"
+            height="34"
+            viewBox="0 0 41 34"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.776 22.112C0.776 29.168 4.952 33.056 9.704 33.056C14.024 33.056 17.336 29.6 17.336 25.424C17.336 21.104 14.456 18.08 10.424 18.08C9.704 18.08 8.696 18.224 8.552 18.224C8.984 13.616 13.16 7.85599 17.768 4.832L12.44 0.511993C5.816 5.26399 0.776 13.328 0.776 22.112ZM23.816 22.112C23.816 29.168 27.992 33.056 32.744 33.056C37.064 33.056 40.52 29.6 40.52 25.424C40.52 21.104 37.496 18.08 33.464 18.08C32.744 18.08 31.736 18.224 31.592 18.224C32.168 13.616 36.2 7.85599 40.808 4.832L35.48 0.511993C28.856 5.26399 23.816 13.328 23.816 22.112Z"
+              fill="#305973"
+            />
+          </svg>
 
-          <p>
-            Work how, when, and where you want. Offer services in 50+ categories
-            and set a flexible schedule and work area.
-          </p>
-        </div>
-        <div class="box">
-          <h3><i class="fa-solid fa-user-plus"></i> <br />Be your own boss</h3>
-
-          <p>
-            Work how, when, and where you want. Offer services in 50+ categories
-            and set a flexible schedule and work area.
-          </p>
-        </div>
-        <div class="box">
-          <h3><i class="fa-solid fa-user-plus"></i> <br />Be your own boss</h3>
-
-          <p>
-            Work how, when, and where you want. Offer services in 50+ categories
-            and set a flexible schedule and work area.
-          </p>
-        </div>
-        <div class="box">
-          <h3><i class="fa-solid fa-user-plus"></i> <br />Be your own boss</h3>
-
-          <p>
-            Work how, when, and where you want. Offer services in 50+ categories
-            and set a flexible schedule and work area.
-          </p>
-        </div>
-        <div class="box">
-          <h3><i class="fa-solid fa-user-plus"></i> <br />Be your own boss</h3>
-
-          <p>
-            Work how, when, and where you want. Offer services in 50+ categories
-            and set a flexible schedule and work area.
-          </p>
-        </div>
-        <div class="box">
-          <h3><i class="fa-solid fa-user-plus"></i> <br />Be your own boss</h3>
-
-          <p>
-            Work how, when, and where you want. Offer services in 50+ categories
-            and set a flexible schedule and work area.
-          </p>
-        </div>
+          I love TaskRabbit! I was able to get out of debt, tackle bills,
+          provide for my family, and still have enough room to save for future
+          goals.
+        </p>
+        <img src="/images/man-standing.jpg" alt="A Man Is Standing" />
       </div>
     </section>
+    <div class="partition">
+      <div class="center"></div>
+    </div>
     <section>
-      <div class="container">
-        <div>
-          <p>
-            <svg
-              width="41"
-              height="34"
-              viewBox="0 0 41 34"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M0.776 22.112C0.776 29.168 4.952 33.056 9.704 33.056C14.024 33.056 17.336 29.6 17.336 25.424C17.336 21.104 14.456 18.08 10.424 18.08C9.704 18.08 8.696 18.224 8.552 18.224C8.984 13.616 13.16 7.85599 17.768 4.832L12.44 0.511993C5.816 5.26399 0.776 13.328 0.776 22.112ZM23.816 22.112C23.816 29.168 27.992 33.056 32.744 33.056C37.064 33.056 40.52 29.6 40.52 25.424C40.52 21.104 37.496 18.08 33.464 18.08C32.744 18.08 31.736 18.224 31.592 18.224C32.168 13.616 36.2 7.85599 40.808 4.832L35.48 0.511993C28.856 5.26399 23.816 13.328 23.816 22.112Z"
-                fill="#305973"
-              />
-            </svg>
-
-            I love TaskRabbit! I was able to get out of debt, tackle bills,
-            provide for my family, and still have enough room to save for future
-            goals.
-          </p>
-          <img src="/images/man-standing.jpg" alt="A Man Is Standing" />
-        </div>
-      </div>
-    </section>
-    <hr />
-    <hr />
-    <hr />
-    <section>
-      <div class="container">
+      <div class="answered wrapper">
         <h2>Your questions, answered</h2>
-        <div class="box">
-          <a href="#">?What’s required to become a Kaarman </a>
-        </div>
-        <div class="box">
-          <a href="#">?How do I get jobs</a>
-        </div>
-        <div class="box">
-          <a href="#"> ?Do I need experience to task </a>
-        </div>
-        <div class="box">
-          <a href="#"> ?What categories can I task in on TaskRabbit </a>
+        <div>
+          <div class="row">
+            <div class="box column">
+              <a class="a" href="#">?What’s required to become a Kaarman </a>
+            </div>
+
+            <div class="column box">
+              <a href="#">?How do I get jobs</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="box column">
+              <a href="#"> ?Do I need experience to task </a>
+            </div>
+            <div class="box column">
+              <a href="#"> ?What categories can I task in on TaskRabbit </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section>
+    <section class="footer-sec footer">
       <h1>Ready to make money your way?</h1>
       <a href="#">Get Started</a>
     </section>
