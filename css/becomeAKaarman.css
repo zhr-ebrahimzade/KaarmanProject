@@ -8,6 +8,10 @@
 .body{
     direction: rtl;
     background-color: #f9f9f9;
+    color: #305973;
+}
+i{
+    color: #ef7e56;
 }
 img{
     max-width: 100%;
@@ -61,6 +65,7 @@ h1,h2{
  }
 .header .wrapper label{
     margin-bottom: 8px;
+    font-weight: 500;
 }
 .header .wrapper button{
     display: block;
@@ -68,8 +73,27 @@ h1,h2{
 
 }
 .header p{
-    margin-top:15px ;
+    margin-top:16px ;
     text-align: center;
+}
+.header button{
+    background-color: #ef7e56;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ef7e56;;
+}
+.header button:hover{
+
+    background-color: white;
+    color: #305973;
+    border: 1px solid #ef7e56;
+}
+.log-in{
+    font-weight: bold;
+}
+.log-in:hover{
+    color: #ef7e56;
 }
 .partition{
     width: 960px;
@@ -86,6 +110,7 @@ h1,h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
 }
 .about-sec{
@@ -100,15 +125,8 @@ h1,h2{
     display: flex;
     
 }
-.footer{
-   
-}
-.footer-sec{
-    position: relative;
-    background-image: url(/images/footer_image.jpg);
-    background-size: cover;
-    padding-top: 80px;
-}
+
+
 .boxes{
     margin:  40px 0 ;
 }
@@ -151,4 +169,53 @@ flex-direction: column;
 align-items: center;
 
 
+}
+.links-answered{
+    text-align: center;
+}
+.ready-sec {
+width: 100%;
+height: 480px;
+    position: relative;
+    background-image: url(/images/footer_image.jpg);
+    background-size: cover;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+    
+
+}
+.ready{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.ready h1{
+    line-height: 80px;
+    letter-spacing: -0.8;
+    padding-top: 120px;
+    font-size: 44px;
+    font-weight: bold;
+} 
+.ready a{
+    text-decoration: none;
+}
+.ready div{
+margin-top: 30px;
+}
+.ready .register{
+    padding :10px 100px;
+    background-color: #ef7e56;
+    border:1px solid #ef7e56;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    
+
+}
+.register:hover{
+    background-color: white;
+    border:1px solid #ef7e56;
+    color: #305973;
 }
