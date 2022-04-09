@@ -70,6 +70,7 @@ h1,h2{
     margin: 0 auto;
 
 }
+
 .header p{
     margin-top:16px ;
     text-align: center;
@@ -90,16 +91,12 @@ h1,h2{
     color: white;
     border: 1px solid #f0632f;
 }
-/* .header button:focus{
-        background-color: #f0632f;
-        color: white;
-        border: 1px solid #f0632f;
-} */
+
 .log-in{
     font-weight: bold;
 }
 .log-in:hover{
-    color: #ef7e56;
+    color: #223d4e;
 }
 .partition{
     width: 960px;
