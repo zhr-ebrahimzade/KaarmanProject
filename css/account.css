@@ -11,6 +11,9 @@ body {
   color: #305973;
   padding: 5px 20px;
 }
+.content-sec {
+  padding: 100px;
+}
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -59,4 +62,25 @@ i {
   font-size: xx-large;
   font-weight: bold;
   color: #305973;
+}
+
+/* section */
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #152935;
+}
+.nav {
+  border-right: 1px solid #152935;
+  padding: 10px;
+}
+.content button {
+  padding: 10px 40px;
+  position: relative;
+}
+.nav-pills .nav-link.active {
+  color: #ef7e56;
+  background-color: #dfebed;
+  font-weight: bold;
 }
