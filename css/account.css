@@ -67,7 +67,7 @@ i {
 /* section */
 
 .content {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   border: 1px solid #152935;
 }
@@ -87,11 +87,9 @@ i {
 
 .tab-content {
   padding: 20px 0 0 10px;
+ 
 }
-.account-title-container {
-  display: flex;
-  align-items: center;
-}
+
 .h2 {
   min-width: 100px;
   display: flex;
@@ -158,4 +156,7 @@ h2 {
   background-color: #d8582a;
   color: white;
   border: 1px solid #d8582a;
+}
+.checked {
+  color: orange;
 }
