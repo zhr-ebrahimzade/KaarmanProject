@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/7219559ca6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/UpgradeToKaarman.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <hr />
+      <div class="nav-content">
+        <div>
+          <span><i class="fa-solid fa-user-gear"></i>Kaarman</span>
+        </div>
+      </div>
+      <hr />
+    </nav>
+    <section>
+      <div class="wrapper">
+        <div class="content">
+          <div class="img-box">
+            <img src="../images/upgrade.png" alt="A Kaarman" />
+          </div>
+          <div>
+            <form class="form">
+              <div id="profile-container">
+                <image id="profileImage" src="../images/eligibity.svg" />
+              </div>
+              <input
+                id="imageUpload"
+                type="file"
+                name="profile_photo"
+                placeholder="Photo"
+                required=""
+                capture
+              />
+              <div class="inputs">
+                <div>
+                  <label for="title">Title</label><br />
+                  <input type="text" id="title" />
+                </div>
+                <div>
+                  <label for="salary">Salary per hour</label><br />
+                  <input type="number" id="salary" />
+                </div>
+                <div>
+                  <label for="about">About</label><br />
+                  <textarea class="about"></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../js/upgradetokaarman.js"></script>
+  </body>
+</html>
