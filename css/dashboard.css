@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f9f9f9;
+  color: #305973;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+ul {
+  list-style: none;
+}
+/* Navbar *********************************************************** */
+.navbar-custom {
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrap {
+  margin-left: 15%;
+}
+.navbar-collapse ul {
+  width: 700px;
+  padding-right: 15%;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav-link:hover {
+  color: #152935;
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+i {
+  color: #305973;
+}
+
+.nav-link {
+  color: #305973;
+  margin-right: 20px;
+}
+
+.logo {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #305973;
+}
+/* Header *********************************************************** */
+.header {
+  margin: -12px 0;
+}
+.header-background {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-image: url(/images/footer_image.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input {
+  width: 600px;
+  margin: auto;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 15px;
+  color: #305973;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  border: 1px solid #456579;
+  width: 100%;
+  padding: 10px 40px;
+}
+.input-field:hover {
+  border: 1px solid #4b7ea0;
+
+  box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.2);
+}
+.input-field:focus {
+  outline: none;
+}
+.ul {
+  margin-top: 15px;
+}
+.ul li {
+  display: inline;
+  margin-right: 20px;
+}
+.search-btn {
+  padding: 10px 20px;
+  background-color: white;
+  color: #ef7e56;
+  font-size: 18px;
+  border: 1px solid #ef7e56;
+}
+.search-btn:hover {
+  background-color: #ef7e56;
+  color: white;
+  border: 1px solid #ef7e56;
+}
+.ul li a {
+  text-decoration: none;
+  color: #f0632f;
+}
+.ul li a:hover {
+  color: #eb460b;
+}

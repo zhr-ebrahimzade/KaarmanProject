@@ -12,7 +12,7 @@ body {
   padding: 5px 20px;
 }
 .content-sec {
-  padding: 100px;
+  padding: 80px;
 }
 .wrapper {
   max-width: 1200px;
@@ -54,17 +54,15 @@ i {
 .nav-link {
   color: #305973;
 }
-.account {
-  text-decoration: underline;
-}
 
 .logo {
   font-size: xx-large;
   font-weight: bold;
   color: #305973;
 }
-
-/* section */
+.account {
+  text-decoration: underline;
+}
 
 .content {
   max-width: 900px;
@@ -87,7 +85,6 @@ i {
 
 .tab-content {
   padding: 20px 0 0 10px;
- 
 }
 
 .h2 {

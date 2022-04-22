@@ -1,45 +1,113 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="fa-IR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/7219559ca6.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="../css/dashboard.css" />
     <title>Dashboard</title>
   </head>
   <body>
-    <nav class="navbar">
-      <div class="container">
-        <div>Kaarman<i class="fa-solid fa-user-gear"></i></div>
-        <div>
-          <ul>
-            <li><a href="#"> book a task</a></li>
-            <li><a href="#"> My tasks</a></li>
-            <li><a href="#"> Acount </a></li>
+    <!-- Navbar ************************************************************* -->
+    <hr />
+    <nav class="navbar-expand-lg">
+      <div class="navbar-custom">
+        <div class="logo-wrap">
+          <span class="navbar-brand logo"
+            ><i class="fa-solid fa-user-gear"></i>
+            Kaarman
+          </span>
+        </div>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Book a Task</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Tasks</a>
+            </li>
+            <li class="nav-item account">
+              <a class="nav-link" href="../html/account.html">Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/becomeAKaarman.html">Upgrade</a>
+            </li>
           </ul>
         </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
       </div>
     </nav>
+    <hr />
+    <!-- Header*********************************************** -->
     <header>
-      <div class="container">
-        <h1>Book Your Next Task</h1>
-        <div>
-          <form>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Describe" />
-            <ul>
-              <li><a href="#">Help Moving</a></li>
-              <li><a href="#">Mounting</a></li>
-              <li><a href="#">Cleaning</a></li>
-              <li><a href="#">See more</a></li>
-            </ul>
-          </form>
+      <div class="header">
+        <div class="header-background">
+          <div class="header-content">
+            <h2>Book Your Next Task</h2>
+
+            <form class="form">
+              <div class="input">
+                <div class="input-icons">
+                  <i class="fa-solid fa-magnifying-glass icon"></i>
+                  <input
+                    class="input-field"
+                    type="text"
+                    placeholder="Describe"
+                  />
+                </div>
+              </div>
+              <ul class="ul">
+                <li><button class="search-btn">Help Moving</button></li>
+                <li><button class="search-btn">Mounting</button></li>
+                <li><button class="search-btn">Cleaning</button></li>
+                <li><a href="#">See more</a></li>
+              </ul>
+            </form>
+          </div>
         </div>
       </div>
     </header>
+    <section>
+      <div class="wrapper">
+        <div>
+          <h2>Partnered with</h2>
+          <div>
+            <ul>
+              <li>
+                <img src="../images/refah.png" alt="Refah company's logo" />
+                Refah
+              </li>
+              <li>
+                <img src="../images/ofogh.png" alt="ofogh company's logo" />
+                Koorosh
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     <section>
       <div class="special-offers">
         <div>
@@ -48,10 +116,14 @@
         <div>
           <h1>How do you use your Kaarman account?</h1>
           <h2>Select below to receive special offers!</h2>
-          <div class="button"><ul><li><button type="click">Personal</button></li><button type="click">Business</button><button type="click">Both</button>
-            <li><button type="click">Dismiss</button></li>
-
-          </ul></div>
+          <div class="button">
+            <ul>
+              <li><button type="click">Personal</button></li>
+              <button type="click">Business</button
+              ><button type="click">Both</button>
+              <li><button type="click">Dismiss</button></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
