@@ -84,7 +84,7 @@ i {
    
     width: 100%;
     height: 450px;
-  background-image: url(/images/helping.png);
+  background-image: url("../images/helping.png");
   background-size: cover;
   background-size: 100% 100%;
   background-repeat: no-repeat;
