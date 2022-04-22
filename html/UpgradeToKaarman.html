@@ -39,35 +39,37 @@
           <div class="img-box">
             <img src="../images/upgrade.png" alt="A Kaarman" />
           </div>
-          <div>
-            <form class="form">
-              <div id="profile-container">
-                <image id="profileImage" src="../images/eligibity.svg" />
+
+          <form class="form">
+            <div id="profile-container">
+              <image id="profileImage" src="../images/eligibity.svg" />
+            </div>
+            <input
+              id="imageUpload"
+              type="file"
+              name="profile_photo"
+              placeholder="Photo"
+              required=""
+              capture
+            />
+            <div class="inputs">
+              <div>
+                <label for="title">Title</label><br />
+                <input type="text" id="title" />
               </div>
-              <input
-                id="imageUpload"
-                type="file"
-                name="profile_photo"
-                placeholder="Photo"
-                required=""
-                capture
-              />
-              <div class="inputs">
-                <div>
-                  <label for="title">Title</label><br />
-                  <input type="text" id="title" />
-                </div>
-                <div>
-                  <label for="salary">Salary per hour</label><br />
-                  <input type="number" id="salary" />
-                </div>
-                <div>
-                  <label for="about">About</label><br />
-                  <textarea class="about"></textarea>
-                </div>
+              <div>
+                <label for="salary">Salary per hour</label><br />
+                <input type="number" id="salary" />
               </div>
-            </form>
-          </div>
+              <div>
+                <label for="about">About</label><br />
+                <textarea class="about"></textarea>
+              </div>
+            </div>
+           <div>
+               <button type="submit">Submit</button>
+           </div>
+          </form>
         </div>
       </div>
     </section>
