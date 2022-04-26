@@ -13,7 +13,7 @@ body {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 10px;
 }
 ul {
   list-style: none;
@@ -34,9 +34,17 @@ ul {
   justify-content: flex-end;
   list-style: none;
 }
+.nav-link {
+  color: #305973;
+  margin-right: 20px;
+  transition: 150ms ease-in-out;
+}
 
 .nav-link:hover {
-  color: #152935;
+  color: #2b4450;
+}
+.nav-link:focus {
+  color: #305973;
 }
 
 .nav-item {
@@ -46,11 +54,6 @@ ul {
 
 i {
   color: #305973;
-}
-
-.nav-link {
-  color: #305973;
-  margin-right: 20px;
 }
 
 .logo {
@@ -78,6 +81,10 @@ i {
   flex-direction: column;
   align-items: center;
 }
+.header-content h2 {
+  font-weight: bold;
+  padding-bottom: 45px;
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -85,7 +92,6 @@ i {
 }
 .input {
   width: 600px;
-  margin: auto;
 }
 .input-icons i {
   position: absolute;
@@ -107,10 +113,10 @@ i {
   border: 1px solid #456579;
   width: 100%;
   padding: 10px 40px;
+  transition: 150ms ease-in;
 }
 .input-field:hover {
   border: 1px solid #4b7ea0;
-
   box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.2);
 }
 .input-field:focus {
@@ -118,13 +124,17 @@ i {
 }
 .ul {
   margin-top: 15px;
+  width: 600px;
 }
+
 .ul li {
   display: inline;
-  margin-right: 20px;
+  margin-bottom: 10px;
 }
 .search-btn {
-  padding: 10px 20px;
+  padding: 4px;
+  transition: 150ms ease-in-out;
+  border-radius: 5px;
   background-color: white;
   color: #ef7e56;
   font-size: 18px;
@@ -141,4 +151,39 @@ i {
 }
 .ul li a:hover {
   color: #eb460b;
+}
+#more {
+  display: none;
+}
+
+/* Images*/
+.logo-list img {
+  width: 60px;
+  height: 60px;
+}
+.logo-list span {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  border-bottom: 5px solid #305973;
+  border-radius: 20px;
+}
+.partners h2 {
+  line-height: 1.5em;
+  padding: 30px;
+  font-weight: bolder;
+}
+.partners-ul {
+  list-style: none;
+}
+.partners li {
+  padding: 20px 50px;
+  display: inline;
 }
