@@ -155,6 +155,10 @@ i {
 #more {
   display: none;
 }
+#myBtn{
+  background-color: white;
+  border: none;
+}
 
 /* Images*/
 .logo-list img {

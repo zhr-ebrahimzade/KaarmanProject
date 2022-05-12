@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="fa-IR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,32 +11,55 @@
     ></script>
     <title>Kaarman</title>
   </head>
-  <body style="direction: rtl">
+  <body>
     <div class="container">
-      <div class="logo">Kaarman<i class="fa-solid fa-user-gear"></i></div>
+      <div class="logo"><i class="fa-solid fa-user-gear"></i>Kaarman</div>
       <div class="form">
         <form>
           <div class="form-item">
-            <input class="button" type="text" placeholder="نام" />
+            <input class="input" type="text" placeholder="Name" name="name" />
           </div>
           <div class="form-item">
-            <input class="button" type="text" placeholder="نام خانوادگی" />
+            <input
+              class="input"
+              type="text"
+              placeholder="Last name"
+              name="lastName"
+            />
           </div>
           <div class="form-item">
-            <input class="button" type="email" placeholder="ایمیل" />
+            <input
+              class="input"
+              type="email"
+              placeholder="Email"
+              name="email"
+            />
           </div>
 
           <div class="form-item">
-            <input class="button" type="password" placeholder="پسوورد" />
+            <input
+              class="input"
+              type="password"
+              placeholder="Password"
+              name="password"
+            />
+          </div>
+          <div class="form-item policy-container">
+            <input
+              class="checkbox"
+              type="checkbox"
+              id="policy"
+              name="policy"
+              name="policy"
+            />
+            <label for="policy"
+              >By signing up I accept the site's <a href="#">policy</a>.</label
+            >
+          </div>
+          <div class="form-item">
+            <button class="sign-up">Sign up</button>
           </div>
         </form>
-        <div class="form-item">
-          <label for="policy">
-            <input type="checkbox" name="policiy" /> با عضویت در سایت، شرایط را
-            میپذیرم.</label
-          >
-        </div>
-        <button class="log-in button">ثبت نام</button>
       </div>
     </div>
   </body>
