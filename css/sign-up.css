@@ -30,7 +30,7 @@ body {
   font-size: 50px;
   font-weight: bold;
   color: #305973;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .input {
@@ -46,7 +46,6 @@ body {
   width: 20px;
   height: 20px;
   margin-right: 10px;
-  
 }
 
 .policy-container {
@@ -76,7 +75,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 .form-item {
   /* margin: 20px; */
