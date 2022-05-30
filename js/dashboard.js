@@ -1,9 +1,17 @@
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+var more = document.getElementById("more");
+var moreText = document.querySelector("showMore");
+var btnText = document.getElementById("myBtn");
 
-  if (dots.style.display === "none") {
+btnText.addEventListener("click", myFunction);
+function myFunction(e) {
+  e.preventDefault();
+  if (more.style.display === "none") {
+    more.style.display = "block";
+  } else {
+    more.style.display = "none";
+  }
+
+  /* if (dots.style.display === "none") {
     dots.style.display = "block";
     btnText.innerHTML = "see more"; 
     moreText.style.display = "none";
@@ -11,5 +19,5 @@ function myFunction() {
     dots.style.display = "none";
     btnText.innerHTML = "see less"; 
     moreText.style.display = "block";
-  }
+  } */
 }
