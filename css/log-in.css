@@ -30,7 +30,8 @@ body {
   color: #305973;
   margin-top: 30px;
 }
-.button {
+.input {
+  color: #305973;
   min-width: 288px;
   font-size: 18px;
   font-weight: bold;
@@ -57,15 +58,12 @@ body {
   align-items: center;
 }
 .form-item {
-  /* margin: 20px; */
-  display: flex;
-  flex: 1;
   margin: 10px;
-  text-align: center;
   padding: 10px;
 }
 .forget-pass {
-  margin: 20px;
+  margin-top: -15px;
+  font-weight: bold;
 }
 .forget-pass a {
   color: #305973;
@@ -76,9 +74,7 @@ body {
   opacity: 0.5;
   font-weight: 100;
 }
-.form input {
-  color: #305973;
-}
+
 input:focus {
   outline: none;
   background-color: #f9f9f9;
